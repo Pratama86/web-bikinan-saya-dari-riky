@@ -1,0 +1,523 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    margin-left: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    margin-top: 20px;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.icon1 {
+    font-size: 30px;
+    color: #4CAF50;
+}
+
+.icon2 {
+    font-size: 25px;
+}
+
+nav {
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ul1 li:hover {
+    color: #fff;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.ul1 {
+    margin-left: 70px;
+}
+
+.ul2 {
+    display: flex;
+    margin-right: 75px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.search-cart {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.search-cart input {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-cart button {
+    background-color: #4CAF50;
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.search-cart .icons img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.hero .text h2 {
+    color: #4CAF50;
+    font-size: 32px;
+    
+}
+
+.hero .text {
+    margin-right: 290px;    
+}
+
+.hero .text p {
+    font-size: 55px;
+    margin: 10px 0;
+    font-family: "Akaya Kanadaka", system-ui;
+}
+
+.hero button {
+    width: 150px;
+    height: 50px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero .image img {
+    width: 800px;
+    height: auto;
+    margin-left:10px;
+}
+
+.offers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer {
+
+    text-align: center;
+    width: 48%;
+}
+
+
+.offer img {
+    width: 550px;
+    height: 260px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.offer-text1 {
+    background-image: url(img/apple\(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    height: 260px;
+    width: 550px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.text2 {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 170px;
+}
+
+.offer-text1 h3 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.offer button {
+    width: 200px;
+    height: 50px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.offer-text1 p {
+    font-size: 35px;
+}
+
+.offer-text2 {
+    background-image: url(img/jeruk\(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    height: 260px;
+    width: 550px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.text2 {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 170px;
+}
+
+.offer-text2 h3 {
+    font-size: 20px;
+    margin: 5px;
+    margin-left: 30px;
+}
+
+.offer-text2 p {
+    font-size: 35px;
+}
+
+.offer-text2 button {
+    width: 200px;
+    height: 50px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* shop category */
+
+.shop1 .shop {
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.shop1 .shop span {
+    color: #4CAF50;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 130px;
+}
+
+
+.content .cart-shop {
+    margin-top: 100px;
+    width: 300px;
+    height: 340px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.content .cart-shop h2 {
+    font-size: 40px;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.content .cart-shop p {
+    font-size: 20px;
+    margin-left: 90px;
+}
+
+.content .cart-shop .img {
+    background-image: url(img/buah2.png);
+    background-position: center;
+    background-size: cover;
+    width: 156px;
+    height: 149px;
+    top: 1504px;
+    margin-left: 68px;
+    margin-top: 10px;
+}
+
+
+.content .cart-shop button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 42px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.products {
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 44px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+h2 span {
+    color: #4CAF50;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 300px;
+    height: 300px;
+}
+
+.product-card h3 {
+    font-size: 38px;
+    margin: 10px 0;
+}
+
+.rating {
+    font-size: 50px;
+    color: gold;
+    margin-bottom: 10px;
+}
+
+.price {
+    margin-bottom: 10px;
+}
+
+.current-price {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.original-price {
+    font-size: 24px;
+    text-decoration: line-through;
+    color: #888;
+}
+
+.quantity {
+    margin-bottom: 10px;
+}
+
+.add-to-cart {
+    background-color: #5e35b1;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #45227c;
+}
+
+
+.container3 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 1450px;
+    margin-left: 45px;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+    margin-bottom: 20px;
+}
+
+h1 span {
+    color: purple;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group input {
+    width: 48%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    height: 100px;
+    resize: none;
+}
+
+.button1 {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    margin-left: 565px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.subscribe-container {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('background-fruits.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #4b2e83;
+  }
+  
+  .subscribe-form {
+    display: inline-block;
+  }
+  
+  .subscribe-form input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .subscribe-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .subscribe-form button:hover {
+    background-color: #45a049;
+  }
+
+  .subscribe-container {
+    background-image: url(img/latar.png);
+    height: 300px;
+    width: 1460px;
+    margin-left: 40px;
+    border-radius: 5px;
+  }
+
+  .isi {
+    margin-top: 60px;
+  }
+
+  footer {
+    background-color: #8d8181;
+    text-align: center;
+    padding: 20px 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
